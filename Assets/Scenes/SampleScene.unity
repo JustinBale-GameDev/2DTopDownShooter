@@ -173,7 +173,7 @@ TilemapCollider2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_LayerOverridePriority: 0
+  m_LayerOverridePriority: 5
   m_ForceSendLayers:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -255,7 +255,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 6
-      m_TileSpriteIndex: 4
+      m_TileSpriteIndex: 9
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -286,16 +286,6 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 0
       m_TileSpriteIndex: 0
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
-  - first: {x: -5, y: 1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 9
-      m_TileSpriteIndex: 9
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -411,8 +401,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 1a48a499b64514c418556046ed2bfacb, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: cccf5df88d47dcc4984c5e7dfb6827bd, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: f450ebc20b5c2c84a952c2fc00ec5cd5, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 66ca9ee6276775447aacd8bb8b9341e5, type: 2}
   - m_RefCount: 4
@@ -426,8 +416,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: -1103333700, guid: 1a15a6c7db08e044aba867f20d18653c, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 409921045, guid: 6a6e87ba56c3ded42bb7437a6a20831e, type: 3}
   - m_RefCount: 1
@@ -437,13 +427,13 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 903399343, guid: 6a6e87ba56c3ded42bb7437a6a20831e, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 939137429, guid: 6a6e87ba56c3ded42bb7437a6a20831e, type: 3}
+    m_Data: {fileID: -1103333700, guid: 1a15a6c7db08e044aba867f20d18653c, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -1277594455, guid: 6a6e87ba56c3ded42bb7437a6a20831e, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -356181154, guid: 6a6e87ba56c3ded42bb7437a6a20831e, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 14
+  - m_RefCount: 13
     m_Data:
       e00: 1
       e01: 0
@@ -462,7 +452,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 14
+  - m_RefCount: 13
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -1250,8 +1240,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.008045495, y: -0.05087298}
-  m_Size: {x: 0.5314021, y: 1.0097142}
+  m_Offset: {x: -0.008045495, y: -0.20219275}
+  m_Size: {x: 0.5314021, y: 0.76760274}
   m_Direction: 0
 --- !u!212 &623241651
 SpriteRenderer:
@@ -3353,8 +3343,8 @@ Tilemap:
   - first: {x: -5, y: 1, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 8
-      m_TileSpriteIndex: 8
+      m_TileIndex: 7
+      m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4046,9 +4036,9 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 180
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: f450ebc20b5c2c84a952c2fc00ec5cd5, type: 2}
+  - m_RefCount: 179
     m_Data: {fileID: 11400000, guid: 90090f34b6cccdd428d8144f1afb380c, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
@@ -4065,9 +4055,9 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 180
+  - m_RefCount: 1
+    m_Data: {fileID: 939137429, guid: 6a6e87ba56c3ded42bb7437a6a20831e, type: 3}
+  - m_RefCount: 179
     m_Data: {fileID: -1809222516, guid: 1ad6f84805dffd045b3111adf6fcdd5d, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 180
